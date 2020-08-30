@@ -11,7 +11,7 @@ namespace ConsoleApp1
             p.FirstName = "Meles";
             p.LastName = "Weldemicael";
             Console.WriteLine(p.GetFullName("Desbele" +  "Bitow"));
-            Console.WriteLine("Now git is on its way of downfall");
+            Console.WriteLine("Now git is on its way of developin a nice stories");
            
            
         }
