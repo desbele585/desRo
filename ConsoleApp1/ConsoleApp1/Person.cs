@@ -18,6 +18,11 @@ namespace ConsoleApp1
             FullName = FirstName + " " + LastName;
                 return FullName;
         }
+        public void AddPerson()
+        {
+            List<Person> persons = new List<Person>();
+            persons.Add(pizzas);
+        }
 
     }
 }
