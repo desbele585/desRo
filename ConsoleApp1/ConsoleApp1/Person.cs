@@ -9,7 +9,11 @@ namespace ConsoleApp1
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int PersonAge { get; set; }
+        public static List<string> pizzas = new List<string>()
+        { "Marigheta", "Kyckling" ,"KöttPizza","pastaPizza"
+        };
         public string GetFullName( string FullName)
+
         { 
             FullName = FirstName + " " + LastName;
                 return FullName;
