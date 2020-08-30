@@ -19,9 +19,14 @@ namespace ConsoleApp1
             List<Pizza> pizzas = new List<Pizza>();
             
         }
+        public void GetPerson()
+        {
+
+        }
 
     }
     public enum Size 
     {  small , medium, largest
     }
+   
 }
