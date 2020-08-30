@@ -8,8 +8,8 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             Person p = new Person();
-            p.FirstName = "Desbele";
-            p.LastName = "Bitow";
+            p.FirstName = "Meles";
+            p.LastName = "Weldemicael";
             Console.WriteLine(p.GetFullName("Desbele" +  "Bitow"));
             Console.WriteLine("Now git is almost under control");
            
