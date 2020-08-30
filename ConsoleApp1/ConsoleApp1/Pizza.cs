@@ -7,13 +7,21 @@ namespace ConsoleApp1
     public class Pizza
     {
         public int price { get; set; }
-        public string size { get; set; }
+        public Size size { get; set; }
         public string name { get; set; }
-        public void Pay()
+                public void Pay()
         {
             Payment.Pay();
 
         }
+        public void BuyPizza()
+        {
+            List<Pizza> pizzas = new List<Pizza>();
+            
+        }
 
+    }
+    public enum Size 
+    {  small , medium, largest
     }
 }
